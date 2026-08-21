@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Load trained model
-MODEL_PATH = "random_model(4).pkl"
+MODEL_PATH = "random_model.pkl"
 model = joblib.load(MODEL_PATH)
 
 
